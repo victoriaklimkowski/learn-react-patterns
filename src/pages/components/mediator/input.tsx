@@ -1,4 +1,4 @@
-import { InputProps } from '../../../types/temperature';
+import { InputProps } from '@/types/temperature';
 import React, { ChangeEvent } from 'react';
 
 const Input = ({ label, value, onValueChange }: InputProps<number>) => {

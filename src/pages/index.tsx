@@ -2,10 +2,10 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 // import styles from '@/styles/Home.module.css'
-import Temperature from "./components/mediator/temperature";
+import CondeRenderHome from './solncomps/condRenderRefactored/condRenderHome'
 
 export default function Home() {
   return (
-    <Temperature />
+    <CondeRenderHome />
   )
 }

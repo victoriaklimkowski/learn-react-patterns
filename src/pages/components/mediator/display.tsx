@@ -1,4 +1,4 @@
-import { DisplayProps } from '../../../types/temperature';
+import { DisplayProps } from '@/types/temperature';
 import React from 'react';
 
 const Display = ({ label, value, getValue }: DisplayProps<number>) => {

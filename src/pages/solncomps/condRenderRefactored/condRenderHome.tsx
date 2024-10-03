@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pageFactoryInitializer from './pageComps/pageFactory';
+import pageFactoryInitializer from './pageComps/pageFactoryInitializer';
 
 const condRenderHome = () => {
   const [pageName, setPageName] = useState<string>('list');

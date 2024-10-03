@@ -1,6 +1,6 @@
 import PageComponent from './pageComp';
-import ListPage from '../pageComps/listPage';
-import DetailsPage from '../pageComps/detailsPage';
+import ListPage from './listPage';
+import DetailsPage from './detailsPage';
 
 const pageFactoryInitializer = (
     pageName: string,
